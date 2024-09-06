@@ -1,0 +1,133 @@
+/* Tabel */
+.table-container {
+    margin: 20px 100px 150px 100px;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 10px 20px;
+    box-shadow: 2px 3px 5px rgba(41, 34, 75, 0.544);
+    overflow-y: auto; /* Tambahkan ini untuk mengaktifkan scroll vertikal */
+    max-height: 600px; /* Sesuaikan tinggi maksimum sesuai kebutuhan */
+}
+.table {
+    color: rgb(34, 31, 27);
+    padding: 20px;
+    margin: 10px 30px 10px 30px;
+    flex-grow: 1;
+    width: 95%;
+    border-collapse: collapse;
+    border-radius: 15px;
+    border: 0.5px;
+}
+
+.table th {
+    font-size: 18px;
+    padding: 8px;
+    text-align: left;
+    border: 1px solid #2c241b;
+}
+.table td {
+    font-size: 15px;
+    padding: 8px;
+    text-align: left;
+}
+.table th {
+    background-color: #523d1c;
+    color: #fff;
+}
+.table tr:nth-child(even) {
+    background-color: rgba(206, 210, 82, 0.1);
+}
+.table tr:hover {
+    background-color: rgba(214, 128, 53, 0.3);
+    border: 1px dashed #1b262c;
+}
+
+.aksi-btn {
+    background-color: #1814f4;
+    border: none;
+    color: white;
+    padding: 6px;
+    font-size: 15px;
+    cursor: pointer;
+    border-radius: 6px;
+    text-align: center;
+    transition: background-color 0.3s ease-in-out;
+}
+
+.aksi-btn1 {
+    background-color: #d92c2c;
+    border: none;
+    color: white;
+    padding: 6px;
+    font-size: 15px;
+    cursor: pointer;
+    border-radius: 6px;
+    text-align: center;
+    transition: background-color 0.3s ease-in-out;
+}
+
+.aksi-btn2 {
+    background-color: #3c9af7;
+    border: none;
+    color: white;
+    padding: 6px;
+    font-size: 15px;
+    cursor: pointer;
+    border-radius: 6px;
+    text-align: center;
+    transition: background-color 0.3s ease-in-out;
+}
+
+.table img {
+    width: auto;
+    height: 100px;
+    margin-left: 2%;
+    padding: 2%;
+}
+
+/* Checkout Button */
+.checkout-button-container {
+    position: sticky;
+    bottom: 0;
+    background: #fff;
+    padding: 20px;
+    text-align: center;
+    box-shadow: 0px -2px 5px rgba(0,0,0,0.2);
+}
+
+.btn {
+    background-color: #2ea44f;
+    border: none;
+    color: white;
+    padding: 12px 16px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 6px;
+    text-align: center;
+    transition: background-color 0.3s ease-in-out;
+}
+
+.btn:hover {
+    background-color: #1b6731;
+}
+
+.btndnd {
+    background-color: #04aa6d;
+    border: none;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    border-radius: 10px;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+
+.btndnd:hover {
+    background-color: #036340;
+}
+
+.btnn {
+    padding: 12px 28px;
+}
